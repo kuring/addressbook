@@ -1,0 +1,152 @@
+/* 2011-12-20 author tiger */
+/*
+ * reset
+ */
+html, body, div, h1, h2, h3, h4, h5, h6, p, 
+img, dl, dt, dd, ol, ul, li,form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0}
+ol, ul { list-style: none; }
+i,b,em { font-style:normal; text-decoration:none; font-weight:normal;}
+body { font-size:12px;font-family:Tahoma,Arial,sans-serif;}
+
+/* 
+ * public 
+ */
+
+a:link , a:visited { text-decoration:none; 
+	-webkit-transition: color 0.15s ease-in-out , border 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out , border 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out , border 0.15s ease-in-out;
+}
+a:hover , a:active { color:#f60; text-decoration:underline; }
+
+
+.fleft { float:left;}
+.fright { float:right;}
+.clear { clear:both; font-size:0; line-height:0; height:0; overflow:hidden;}
+
+
+.w980 { width:980px;}
+
+
+
+/*
+ *  yo_topNav yo_header
+ */
+.yo_header { background:#0B4676 url(http://p2.yokacdn.com/pic/div/2010/newhead/nv1.gif) repeat; height:118px; border-bottom:#13303E 1px solid; margin:0 auto; }
+.yo_header dt { float:left; padding:40px 0 0 21px;}
+.yo_header dd { float:right; padding:10px 10px 0 0; height:108px;}
+.yo_header dt a { display:block; background:url(http://p3.yokacdn.com/pic/div/2010/newhead/logos.jpg) no-repeat; width:239px; height:53px; overflow:hidden; text-indent:-3000px;}
+
+
+/* yo_logo */
+.yo_logo { margin:0 auto; height:119px; background:url(http://p1.yokacdn.com/pic/div/2012/products/index/img/logobg.jpg) no-repeat; border-top:1px solid #19334d;}
+.yo_logo dt { width:243px; height:52px; overflow:hidden; float:left; padding:37px 0 0 25px;}
+.yo_logo dt a { display:block; width:242px; height:51px; overflow:hidden; text-indent:-3000px;}
+.yo_logo dt div { width:0; height:0; overflow:hidden; overflow:hidden; line-height:0;}
+.yo_logo dd { width:680px; padding:10px 9px 0 0; float:right;}
+
+
+/* 
+ * yo_menu
+*/
+.w986 { width:986px;}
+.yo_menu { margin:0 auto; border-top:#434649 1px solid;height:59px; background:#2b2e31;border-bottom:#434649 1px solid;overflow:hidden;font-size:14px; line-height:18px;}
+.yo_menu div { width:1000px; font-size:14px; margin:0 0 0 -8px;}
+.yo_menu dl,.yo_menu dt,.yo_menu dd{ float:left;margin:0;padding:0;}
+.yo_menu dd {padding:5px 2px 0px 6px;}
+.yo_menu dt {padding:22px 2px 0px 37px;}
+.yo_menu dt a { display:block; width:38px; height:18px; overflow:hidden; text-indent:-3000px; background-image:url(http://p1.yokacdn.com/pic/div/public/img/yo_menubg.gif); background-repeat:no-repeat;}
+.yo_menu_fashion { background-position:0 0;}
+.yo_menu_good { background-position:0 -20px;}
+.yo_menu_men { background-position:0 -40px;}
+.yo_menu_bbs { background-position:0 -60px;}
+.yo_menu table {border-collapse: separate;border-spacing: 2px;}
+.yo_menu td{ font-family:"simsun"; border:0px;margin:0px;padding:0px 11px 1px 11px;background:url(http://p1.yokacdn.com/pic/div/public/img/yo_menu_tdbg.gif) no-repeat right 3px; height:23px;}
+.yo_menu a:link,.yo_menu a:visited{text-decoration:none;color:#fff; font-size:14px;}
+.yo_menu a:active,.yo_menu a:hover{text-decoration:underline;color:#85C0FD;}
+.yo_menu td.on a:link,.yo_menu td.on a:visited{text-decoration:none;color:#FE7A15;}
+.yo_menu td.on a:active,.yo_menu td.on a:hover{text-decoration:underline;color:#85C0FD;}
+.yo_menu td.no{background:none;padding:0 7px 0 11px;}
+.yo_menu img { border:0;}
+
+/* yo_content */
+.yo_content { margin:0 auto; overflow:hidden; background:#fff;}
+
+
+/* 
+ * yo_footer
+.yo_footer{ margin:0 auto;text-align:center;background:#fff;padding-bottom:0px;border-bottom:none; font-size:12px;}
+.yo_links{padding-top:8px;height:22px;background:#4B494A;color:#A8A8A8;border-bottom:#7D7D7B 1px solid;}
+.yo_links a:link , .yo_links a:visited { color:#A8A8A8;}
+.yo_links a:hover { color:#f60;}
+.yo_links span { display:inline-block; width:2px; padding:0 20px; text-align:center;}
+.yo_mail {background:#4B494A;padding-top:1px;}
+.yo_mail ul{height:29px;width:340px;margin:0 auto;}
+.yo_mail li { float:left;padding:2px 4px 0 0;}
+.yo_mail img { cursor:pointer;}
+.yo_mail input{width:213px;height:14px;border:#3B3C37 1px solid;background:#fff;color:#aaa;padding-top:4px;font-size:12px; margin:1px 0 0;}
+.yo_footer p{background:url(http://p1.yokacdn.com/pic/div/allnav/a56.gif);padding:15px;line-height:22px;color:#FFF;font-family:"simsun";}
+.yo_footer p a:link, .yo_footer p a:visited { color:#fff;}
+.yo_footer p a:hover { color:#f60;}
+*/
+
+.yo_footer { width:980px; background:#1e1e1e; margin:0 auto; color:#5d5d5d;font-family:'Microsoft YaHei';_font-family:simsun;}
+.yo_footer a:link , .yo_footer a:visited { color:#909090;}
+.yo_footer a:hover { color:#f60;}
+.footer_links { padding:19px 0 0 64px; border-bottom:1px solid #3f3f3f; height:37px; overflow:hidden; font-size:14px;}
+.footer_links a { display:inline-block; margin:0 16px 0 0;}
+.footer_friends { width:940px; margin:19px auto 0;  border-bottom:1px solid #3f3f3f; overflow:hidden;}
+.footer_friends dl { width:894px; overflow:hidden; margin:0 0 24px; padding:0 0 0 46px;}
+.footer_friends dt { height:29px; font-size:14px;}
+.footer_friends dd { line-height:21px;}
+.footer_friends a { display:inline-block; margin:0 18px 0 0;}
+.footer_address { width:940px; padding:24px 0 0; height:164px;  margin:0 auto; position:relative;}
+.footer_address p { padding:6px 0 0 40px; height:111px; line-height:26px; overflow:hidden; float:left; border-right:1px solid #404040; width:291px;}
+.footer_rss { width:230px; padding:0 0 0 40px; float:left; overflow:hidden;}
+.footer_rss dt { padding:18px 0 0; height:26px; overflow:hidden; width:200px;}
+.footer_rss dt a { display:block; width:41px; height:15px; text-indent:-3000px; overflow:hidden;float:right; background:url(http://p3.yokacdn.com/pic/div/public/img/yo_footer_bg.gif) no-repeat;}
+.footer_rss dd { width:198px; height:24px; border:1px solid #000; background:#616161; overflow:hidden;}
+.footer_rss span { display:block; color:#ccc; padding:9px 0 0; font-family:'simsun';}
+.footer_rssSub { width:333px; height:179px; overflow:hidden; position:absolute; z-index:2; top:19px; right:20px; display:none}
+.footer_rssSubCon { width:321px; height:167px; overflow:hidden; background:#f4f4f4; position:relative; z-index:3; margin:6px 0 0 6px;}
+.footer_rssSubMask { width:333px; height:179px; overflow:hidden; background:#fff; filter:alpha(opacity=25); opacity:0.25; position:absolute; z-index:1; left:0; top:0;}
+.rss_title { width:321px; height:30px; overflow:hidden; background:#2b2e31;}
+.rss_title span { display:block; float:right; width:12px; height:12px; text-indent:-3000px; cursor:pointer; overflow:hidden; background:url(http://p3.yokacdn.com/pic/div/public/img/yo_footer_bg.gif) no-repeat -51px 0; margin:8px 10px 0 0;}
+.rss_title i , .rss_title em { display:block; width:146px; height:14px; background:url(http://p3.yokacdn.com/pic/div/public/img/yo_footer_bg.gif) no-repeat 0 -26px; overflow:hidden; margin:9px 0 0 9px; text-indent:-3000px;}
+.rss_title em { background-position:0 -46px;}
+.rss_con { width:321px; height:137px; overflow:hidden;}
+.rss_success b{ display:block; font-size:30px; color:#000; padding:20px 0 0 92px; height:53px;}
+.rss_success p { line-height:23px; padding:0 0 0 26px; border:0;}
+.footer_address .rss_success a:link , .footer_address .rss_success a:visited { color:#3f77a5;}
+.footer_address .rss_success a:hover { color:#f60;}
+
+.rss_exit { width:260px; padding:37px 0 0 32px; overflow:hidden;}
+.rss_exit dt {  height:29px; overflow:hidden; font-size:14px; color:#5d5d5d;}
+.rss_exit dd { height:30px; overflow:hidden;}
+.rss_exit span { display:block; color:#ccc; padding:9px 0 0; font-family:'simsun';}
+.rss_exit div { width:200px; float:left; overflow:hidden; }
+.rss_exit div input {width:184px; height:23px; line-height:23px; float:left; vertical-align:middle; margin:0; padding:3px 0 0 4px; border:1px solid #b8b8b8; overflow:hidden;  background:url(http://p3.yokacdn.com/pic/div/public/img/yo_footer_bg.gif) no-repeat 0 -70px;}
+.rss_exit input.focus { border:1px solid #3e4555; color:#333; background:none; }
+.rss_exit input.error { background:url(http://p3.yokacdn.com/pic/div/public/img/yo_footer_bg.gif) no-repeat 0 -107px; border:1px solid #b8b8b8;}
+.rss_exit i { width:58px; height:28px; float:left; overflow:hidden; display:block;}
+.rss_exit i input { width:59px; height:28px; padding:0; margin:0; border:0; background:#495469; text-align:center; cursor:pointer; color:#fff; font-size:14px; font-family:'Microsoft YaHei','simsun';}
+.rss_exit span {display:block; color:#c00; padding:9px 0 0; font-family:'simsun';}
+.rss_exit b {display:block; font-size:30px; color:#000; padding:7px 0 0 64px; height:53px;}
+
+.footer_address a:link , .footer_address a:visited { color:#5d5d5d;}
+.footer_address a:hover { color:#f60;}
+
+
+.rss_text { width:148px; height:24px; float:left; overflow:hidden; }
+.rss_text input {width:144px; height:22px; margin:0; padding:2px 0 0 4px; overflow:hidden; border:0; background:none;}
+.rss_submit { width:50px; height:24px; float:left; background:#3a3a3a; overflow:hidden; display:block;}
+.rss_submit input { width:50px; height:24px; padding:0; margin:0; border:0; background:none; text-align:center; cursor:pointer; color:#b3b3b3; font-family:'Microsoft YaHei','simsun';}
+.footer_copy { text-align:center;  height:60px; color:#626262;}
+.footer_copy span { display:inline-block; width:20px;}
+

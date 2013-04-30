@@ -1,0 +1,160 @@
+@charset "utf-8";
+body {background:#f3f3f3;}
+input,button,select,textarea{outline:0 none;}
+.header_box {margin:0 auto;}
+.main_box {margin:0 auto;}
+.fontArial {font-family:arial;}
+.top_box {position:relative;height:89px;}
+.top_box dt {position:absolute;left:41px;top:34px;}
+.top_box dd {height:55px;border-bottom:1px solid #d0d0d8;}
+.middle_box {border:1px solid #e6e6e6;background:#fff;padding:26px 40px 0;}
+.bottom_box {text-align:center;padding-top:41px;}
+.bottom_box div {height:41px;color:#333;}
+.bottom_box div a {display:inline-block;margin:0 13px 0 12px;}
+.bottom_box div a:link,.bottom_box div a:visited {color:#333;}
+.bottom_box div a:hover {color:#f60;}
+.bottom_box p {height:23px;color:#999;}
+.reg_box {background:#fff url("../img/regBG.jpg") no-repeat right top;padding-bottom:15px;}
+.part_title {height:51px;overflow:hidden;}
+.part_title dt,.part_title dd {float:left;height:25px;overflow:hidden;}
+.part_title dt {text-indent:999px;white-space:nowrap;background:url("../images/spt.jpg") no-repeat;}
+.reg_title dt {width:46px;height:24px;background-position:-400px -260px;}
+.reg_title dd {color:#666;font:14px "Microsoft Yahei";padding:5px 0 0 14px;}
+.reg_title dd a:link,.reg_title dd a:visited {color:#4b85d4;}
+.reg_title dd a:hover {color:#f60;}
+.reg_form dl:after{content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden;}
+.reg_form dl{zoom:1;height:46px;color:#333;}
+.reg_form dt{float:left;width:70px;padding:5px 5px 0 0;font:14px "Microsoft Yahei";text-align:right;}
+.reg_form dt span{color:#ff529a;font:10px arial;padding-left:9px;}
+.reg_form dd{float:left;background:url("../images/spt.jpg") no-repeat -590px -310px;height:35px;padding-left:8px;width:610px;}
+.reg_form dd i{display:inline-block;background:url("../images/spt.jpg") no-repeat right top;padding-right:8px;width:225px;height:31px;}
+.reg_form dd input.txt_input{border:0 none;background:none;font-size:14px;padding:8px 0 9px 0;height:14px;width:225px;}
+.reg_form dd span,.reg_form dd input{display:inline-block;vertical-align:middle;}
+.reg_form dd span{color:#b1b1b1;padding-left:10px;}
+.reg_form dd.onerror span{color:#cc0000;}
+.reg_form dd.passed span{width:30px;height:14px;background:url("../images/spt.jpg") no-repeat -490px -260px;}
+.reg_form dd.onerror{background-position:-590px -390px;}
+.reg_form dd.oninput{background-position:-590px -350px;}
+.reg_form dd.onerror i{background-position:right -80px;}
+.reg_form dd.oninput i{background-position:right -40px;}
+.reg_form dd.radioBox{padding:6px 0 0;background:none;}
+.radioBox input,.radioBox label{float:left;vertical-align:middle;width:normal;}
+.radioBox label{*padding-top:1px;cursor:pointer;margin-right:9px;font:12px "Microsoft Yahei";}
+.radioBox{padding-top:3px;}
+.reg_form dd.read_check{background:none;padding:5px 0 0;}
+.read_check input{margin:0;padding:0;vertical-align:middle;}
+.reg_form dd.read_check span{vertical-align:middle;display:inline-block;color:#999;padding-left:5px;font:12px "Microsoft Yahei";}
+.read_check a:link,.read_check a:visited {color:#4b85d4;}
+.read_check a:hover {color:#f60;}
+.reg_form dd.submit_box{background:none;padding:0;}
+.reg_form dd.submit_box a{display:block;background:url("../images/spt.jpg") no-repeat 0 -200px;width:111px;height:36px;border:0 none;}
+.reg_form dd.submit_box a:hover{background-position:-200px -200px;}
+
+.reg_form dd.submit_box_2{background:none;padding:0;}
+.reg_form dd.submit_box_2 a{display:block;background:url("../images/spt_edit.jpg") no-repeat 0 -200px;width:111px;height:36px;border:0 none;}
+.reg_form dd.submit_box_2 a:hover{background-position:-200px -200px;}
+
+.reg_form .short_input dd i,.reg_form .short_input dd i input{width:71px;}
+.reg_form .whereur dd{padding:8px 0 0 97px;background:none;position:relative;z-index:99;}
+.reg_form .whereur dd span{vertical-align:top;}
+.whereur div{background:#fff;position:absolute;border:1px solid #e2e2e2;border-top:0;left:-9999px;top:31px;padding:0 1px 1px 0;width:84px;height:175px;overflow:hidden;}
+.whereur b{font-weight:400;padding:8px 0 0 10px;cursor:pointer;background:url("../images/spt.jpg") no-repeat 0 -310px;width:77px;height:23px;position:absolute;left:0;top:0;}
+.whereur ul{background:#fff;position:absolute;top:0;left:0;width:119px;}
+.whereur li{float:left;width:60px;height:25px;}
+.whereur li a:link,.whereur li a:visited{display:block;width:51px;padding:6px 0 0 9px;height:19px;text-decoration: none;color:#333;}
+.whereur li a:hover{background:#e8f4fc;text-decoration: none;color:#333;}
+.whereur div dl{position:absolute;left:60px;top:0;background:#f7f7f7;border:0;padding:1px;width:23px;height:175px;overflow:hidden;}
+.whereur div dt{cursor:pointer;position:absolute;left:0;top:20px;float:none;height:70px;padding:0;background:#e7e7e7;width:23px;}
+.reg_form .whereur div dd{cursor:pointer;padding:0;float:none;background:url("../images/spt.jpg") no-repeat 0 -360px;height:20px;padding:0;width:23px;position:absolute;left:0;top:0;}
+.reg_form .whereur div dd.down{cursor:pointer;background-position:0 -390px;top:155px;}
+.reg_form .yzm dd i{vertical-align:top;}
+.yzm a:link,.yzm a:visited {color:#578dd7;}
+.yzm a:hover {color:#f60;}
+.reg_form dd.onerror span.gray_txt{color:#B1B1B1;}
+#input_div{position:relative;z-index:100;}
+#input_div div{background:#fff;position:absolute;left:-9999px;top:31px;border:1px solid #e2e2e2;width:237px;overflow:hidden;padding:1px;}
+#input_div ul{background:#fff;position:absolute;top:0;left:1px;width:237px;}
+#input_div li{float:left;width:237px;height:25px;overflow:hidden;}
+#input_div li a:link,#input_div li a:visited{display:block;width:228px;padding:6px 0 0 9px;height:19px;text-decoration: none;color:#333;overflow:hidden;white-space:nowrap;}
+#input_div li a:hover{background:#e8f4fc;text-decoration: none;color:#333;}
+#input_div li.on a{background:#e8f4fc;text-decoration: none;color:#333;}
+#input_div div dl{position:absolute;top:1px;background:#f7f7f7;border:0;padding:1px;width:23px;height:250px;overflow:hidden;}
+#input_div div dt{cursor:pointer;position:absolute;left:0;top:20px;float:none;height:210px;padding:0;background:#e7e7e7;width:23px;}
+.reg_form #input_div div dd{cursor:pointer;padding:0;float:none;background:url("../images/spt.jpg") no-repeat 0 -360px;height:20px;padding:0;width:23px;position:absolute;left:0;top:0;}
+.reg_form #input_div div dd.down{cursor:pointer;background-position:0 -390px;top:230px;}
+.reg_form dl.serviceCheck { height:35px; overflow:hidden;}
+
+/* getpass */
+.getpass_title dt {width:92px;height:24px;background-position:-400px -140px;}
+.getpassok{padding:43px 0 0 301px;height:383px;}
+.getpassok p{color:#333;font:14px/25px "Microsoft Yahei";}
+.getpassok span{color:#578dd7;}
+.middle_txt{padding:14px 0 20px 0;}
+
+/* confirm mail */
+.confirm_title{height:42px;}
+.confirm_title dt {width:92px;height:24px;background-position:-400px -260px;}
+.confirm_cont{padding:0 0 0 188px;height:436px;width:540px;}
+.confirm_cont p{color:#333;font:14px/25px "Microsoft Yahei";padding-bottom:13px;}
+.confirm_cont span{color:#578dd7;padding:0 5px;}
+.go2mail{height:69px;padding-top:6px;}
+.go2mail a{display:block;width:191px;height:41px;background:url("../images/spt.jpg") no-repeat 0 -260px;overflow:hidden;white-space:nowrap;text-indent:-999px;}
+.confirm_cont p a:link,.confirm_cont p a:visited{color:#578dd7;padding:0 5px;}
+.confirm_cont p a:hover{color:#f60}
+.go2mail a:hover{background-position:-200px -260px;}
+.resend_mail{padding:0;height:36px;}
+.confirm_cont dl,.confirm_cont dt,.confirm_cont dd{width:521px;overflow:hidden;font:12px "Microsoft Yahei";}
+.confirm_cont dt,.confirm_cont dd{float:left;padding:11px 0 0 16px;}
+.confirm_cont dt{height:28px;padding-top:7px;background:#f8f8f8;font-size:14px;}
+.confirm_cont dd{height:15px;}
+.confirm_cont p i{display:inline-block;color:#999;font-family:'simsun';background:url(../img/email.jpg) no-repeat 4px -382px;padding-left:24px;font-size:12px;}
+
+/* reg success */
+.success_title{height:24px;}
+.success_title dt {width:92px;height:24px;background-position:-400px -200px;}
+.success_cont{padding:64px 0 0 230px;height:396px;}
+.success_cont p{padding:27px 0 0 78px;height:61px;color:#333;background:url("../images/spt.jpg") no-repeat -500px -140px;font:22px "Microsoft Yahei";}
+.success_cont p span{color:#578dd7;padding:0 5px;}
+.success_cont div{padding-left:142px;}
+.success_cont div a:link,.success_cont div a:visited{color:#578dd7;font:14px "Microsoft Yahei";}
+.success_cont div a:hover{color:#f60}
+
+/* getpass_form */
+.getpass_form_title{height:24px;}
+.getpass_form_title dt {width:92px;height:24px;background-position:-400px -140px;}
+.getpass_form{padding:92px 0 0 266px;overflow:hidden;height:367px;}
+.getpass_form dl{overflow:hidden;height:81px;width:500px;}
+.getpass_form dt{color:#333;float:left;width:71px;padding:5px 2px 0 0;font:14px "Microsoft Yahei";text-align:right;}
+.getpass_form dd{float:left;width:360px;background:url("../images/spt.jpg") no-repeat -590px -450px;}
+.getpass_form dd p{color:#666;font:12px "Microsoft Yahei";padding-top:7px;}
+.getpass_form dd i{margin-left:8px;display:block;background:url("../images/spt.jpg") no-repeat right top;padding-right:8px;width:275px;height:31px;}
+.getpass_form dd input.txt_input{border:0 none;background:none;font-size:14px;padding:8px 0 9px 0;height:14px;width:275px;}
+.getpass_form dd.submit_box{background:none;padding:0;}
+.getpass_form dd.submit_box a{display:block;background:url("../images/spt.jpg") no-repeat 0 -140px;width:111px;height:36px;border:0 none;}
+.getpass_form dd.submit_box a:hover{background-position:-200px -140px;}
+
+/*email*/
+.email_title {height:51px;overflow:hidden;}
+.email_title dt,.email_title dd {float:left;height:25px;overflow:hidden;}
+.email_title dt {text-indent:999px;white-space:nowrap;background:url("../img/email.jpg") no-repeat 0px -223px;}
+.email_con{padding:75px 0 0 177px;}
+.renzg{height:118px;border-bottom:1px solid #e1e1e1;width:610px;}
+.renzg dt{height:38px;overflow:hidden;color:#333;font:16px "Microsoft Yahei";}
+.renzg dt span{color:#c00;}
+.renzg dd{height:44px;overflow:hidden;}
+.renzg dd a.but,.renzg dd a.but:visited{width:191px;height:41px;overflow:hidden;float:left;display:block;background:url(../img/email.jpg) no-repeat 0px 0px;cursor:pointer;text-indent:-999px;}
+.renzg dd a.but:hover{background:url(../img/email.jpg) no-repeat 0px -41px;}
+.renzg dd a.fan,.renzg dd a.fan:visited{margin:12px 0 0 15px;float:left;color:#4b85d4;font:12px "Microsoft Yahei";}
+.renzg dd a.fan:hover{color:#f60;}
+
+.email_list{widht:560px;height:230px;overflow:hidden;padding-top:16px;}
+.email_list dt{widht:550px;height:24px;overflow:hidden;color:#666;font:12px "Microsoft Yahei";padding-left:8px;background:url(../img/spater.gif) no-repeat 0px 5px;}
+.email_list a,.email_list a:visited{color:#4b85d4;}
+.email_list a:hover{color:#fe7201;}
+.email_list dt span{display:inline-block;color:#999;font-family:'simsun';background:url(../img/email.jpg) no-repeat 4px -387px;padding-left:24px;}
+.email_list dd{overflow:hidden;width:560px;}
+.email_list dd input{width:174px;height:20px;overflow:hidden;float:left;border:none;padding:4px 8px;line-height:24px;font-size:12px;color:#999;float:left;background:url(../img/email.jpg) no-repeat 0px -152px;margin-right:10px;}
+.email_list dd input.show{background:url(../img/email.jpg) no-repeat 0px -185px;}
+.email_list dd a,.email_list dd a:visited{width:89px;height:30px;float:left;overflow:hidden;display:block;background:url(../img/email.jpg) no-repeat 0px -82px;text-indent:-999px;}
+.email_list dd a:hover{background:url(../img/email.jpg) no-repeat 0px -112px;}
+.email_list dd span{display:block;color:#c00;padding-top:5px;width:400px;overflow:hidden;float:left;}

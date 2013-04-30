@@ -1,0 +1,1 @@
+<script language="javascript">window.location.href="login.html";</script>
