@@ -6,9 +6,11 @@ addressbook
 ## 界面说明
 ### 注册界面
 用户仅可以通过姓名和学号匹配时才能注册。
-![注册]()
+![注册](https://raw.github.com/kuring/addressbook/master/images_doc/regist.png)
 ### 登录界面
 ![登录](https://raw.github.com/kuring/addressbook/master/images_doc/login.png)
+### 通讯录列表界面
+![通讯录列表](https://raw.github.com/kuring/addressbook/master/images_doc/list.png)
 ## 数据库说明
 本系统数据库包含两张表：info（注册的详细信息）、no_name（学号和姓名对应关系表，该表需要搭建系统的时候将学号和姓名填写进去）。
 ### info字段说明
@@ -30,3 +32,7 @@ addressbook
 - name：姓名
 
 ## 安装说明
+1. 将程序目录中的addressbook.sql文件导入到mysql数据库
+2. 在no_name表中插入班级内同学的学号和姓名的记录
+3. 数据库的连接配置在config.php文件中修改
+4. 将程序放入到支持php的环境下，ok，现在就可以使用这个简单的通讯录系统了。(^ˍ^）
